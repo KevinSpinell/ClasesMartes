@@ -1,0 +1,36 @@
+body{
+    background-color: aquamarine;
+    color:midnightblue;
+    font-style:italic;
+}
+table{
+    color: black;
+    border-color: blueviolet;
+    background-color: blanchedalmond;
+    border-radius: 10px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+
+}
+div{
+    color:black;
+}
+h1{
+    font-size: 5em;
+    padding: auto;
+    position:relative;
+    text-align: center;
+}
+.caja{
+    background-color: beige;
+}
+.descripcion{
+    background-color: beige;
+    position:absolute;
+    top: 32%;
+    left:50%
+}
+
+
+
