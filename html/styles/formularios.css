@@ -1,0 +1,42 @@
+body{
+    background-color: blanchedalmond;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+    text-align: center;
+}
+.container{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:beige;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+.capcha{
+    background-color: aliceblue;
+    border-radius: 5px;
+    padding: 35px;
+    margin: 75px;
+    text-align:center;
+
+}
+.capchaverify{
+    scale: 3;
+    width: 50px;
+}
+.img {
+    position: relative;
+    left: 30px;
+}
+button{
+    border-radius: 7px;
+    background-color:#007bff;
+    border-color: #007bff;
+    padding: 15px;
+}
+button:hover{
+    background-color:#0056b3 ;
+    border-color: #0056b3;
+}
