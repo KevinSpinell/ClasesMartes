@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500;600;800&display=swap');
+/*Selector Universal*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Selector de Etiqueta*/
+body{
+    background-color: beige;
+    font-family: 'Montserrat', sans-serif;
+}
+a{
+    text-decoration: none;
+    margin-left: 30px;
+    color: #05696d;
+}
+/*Selector por ID*/
+#option_one, #option_two, #option_three {
+    color:#8a2be2;
+
+}
+/*Selector por clases*/
+.group_options{
+    background-color: rgb(229, 223, 220);
+    margin-top: 5px;
+}
+.group_class{
+    padding: 10px;
+}
+/*Selector por pseudoclase*/
+.group_options:hover{
+    background-color: yellow;
+    color:black;
+}
+/*Selector por atributo*/
+[disabled]{
+    background-color: aqua;
+}
+/*Selector desendentes*/
+#papa{
+    border: 10px double red;
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 20px;
+    box-shadow: 0px 20px 100px;
+}
+#papa > .hermanos + .hermanos{
+    color:#05696d;
+}
+/*Selector Hijo*/
+#papa a{
+    color:blue;
+}
+#papa > #etiqueta > a{
+    color: orange;
+}
